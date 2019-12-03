@@ -26,7 +26,6 @@ day to see how your pet does in a new environment.`;
 
 export const BOARDING_POLICY_RESTRICTIONS = [
   `Pet(s) must be well tempered.`,
-  `Pet(s) must be friendly with other dogs, people, and children.`,
   `Pet(s) must be up to date with mandatory vaccines for boarding.`,
   `Pet(s) must not be sick with kennel cough or any other contagious disease.`
 ];
@@ -34,3 +33,23 @@ export const BOARDING_POLICY_RESTRICTIONS = [
 export const EMAIL_ID = `shafaraaz100@gmail.com`;
 
 export const PHONE_NUMBER = `Faraaz: 9916667100`;
+
+export const ABOUT_PAGE_LINES = [
+  "We are a homely Boarding Service which cares for your pets as our family.",
+  "We have started the boarding services at home so that we personally take care of our guests.",
+  "You can now plan your vacations, as we will take care of your pets like ours.",
+  "We entertain any pets like pigeons, rabbits, guineas and hamsters. All kinds of birds are welcome."
+];
+
+export const ABOUT_PAGE_NOTE =
+  "Note: We do not undertake dog boarding as of now.";
+
+export const HOME_PAGE_1 = `When you want the best possible care and attention for your pet, \
+there is nothing like a home environment.`;
+
+export const HOME_PAGE_2 = `Sha's Boarding is a home based pet boarding service.`;
+
+export const HOME_PAGE_3 = `\nAdditional Services:  We also undertake pet shows in schools, birthday \
+parties, institutions etc.\n
+You may also choose to come and spend time with pets on hourly basis if you are unable to keep \
+them at home.`;

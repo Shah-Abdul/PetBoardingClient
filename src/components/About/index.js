@@ -2,15 +2,9 @@ import React from "react";
 import { List, Typography } from "antd";
 import styled from "styled-components";
 
-const { Text } = Typography;
-const aboutLines = [
-  "We are a homely Boarding Service which cares for your pets as our family.",
-  "We have started the boarding services at home so that we personally take care of our guests.",
-  "You can now plan your vacations, as we will take care of your pets like ours.",
-  "We entertain any pets like pigeons, rabbits, guineas and hamsters. All kinds of birds are welcome."
-];
+import { ABOUT_PAGE_LINES, ABOUT_PAGE_NOTE } from "../../constants";
 
-const noteLine = "Note: We do not undertake dog boarding as of now.";
+const { Text } = Typography;
 
 export const FullHeightDiv = styled.div`
   height: inherit;
@@ -29,7 +23,7 @@ const Note = styled.div`
 const About = props => (
   <FullHeightDiv>
     <List
-      dataSource={aboutLines}
+      dataSource={ABOUT_PAGE_LINES}
       bordered
       renderItem={item => (
         <List.Item>
@@ -39,7 +33,7 @@ const About = props => (
     />
     <Note>
       <Text strong type="warning">
-        {noteLine}
+        {ABOUT_PAGE_NOTE}
       </Text>
     </Note>
   </FullHeightDiv>

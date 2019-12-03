@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { FullHeightDiv } from "../About";
+import { HOME_PAGE_1, HOME_PAGE_2, HOME_PAGE_3 } from "../../constants";
 
 export const HomePageText = styled.h1`
   color: white;
@@ -10,17 +11,22 @@ export const HomePageText = styled.h1`
   text-align: center;
 `;
 
-const homePageContentOne = `When you want the best possible care and attention for your pet, \
-there is nothing like a home environment.`;
-
-const homePageContentTwo = `Sha's Boarding is a home based pet boarding service.`;
+export const HomePageH2 = styled.h4`
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  white-space: pre-line;
+`;
 
 const Home = props => (
-  <div>
-    <HomePageText>{homePageContentOne}</HomePageText>
+  <FullHeightDiv>
+    <HomePageText>{HOME_PAGE_1}</HomePageText>
     <br />
-    <HomePageText>{homePageContentTwo}</HomePageText>
-  </div>
+    <HomePageText>{HOME_PAGE_2}</HomePageText>
+    <br />
+    <HomePageH2>{HOME_PAGE_3}</HomePageH2>
+  </FullHeightDiv>
 );
 
 export default Home;
