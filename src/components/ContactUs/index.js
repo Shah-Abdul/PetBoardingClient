@@ -8,6 +8,7 @@ import { EMAIL_ID, PHONE_NUMBER } from "../../constants";
 const Heading = styled.h1`
   color: white;
   font-size: 3rem;
+  text-align: center;
 `;
 
 const Text = styled.div`

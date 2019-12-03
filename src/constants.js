@@ -52,4 +52,4 @@ export const HOME_PAGE_2 = `Sha's Boarding is a home based pet boarding service.
 export const HOME_PAGE_3 = `\nAdditional Services:  We also undertake pet shows in schools, birthday \
 parties, institutions etc.\n
 You may also choose to come and spend time with pets on hourly basis if you are unable to keep \
-them at home.`;
+them at home. Feel free to drop by!`;
