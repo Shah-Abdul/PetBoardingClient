@@ -11,7 +11,6 @@ import catIcon from "../assets/cat.jpg";
 const { Header, Content, Footer } = Layout;
 
 const HomePage = styled.div`
-  ${"" /* height: ${props => (props.isMobile ? `calc(100% - 4rem)` : "100%")}; */}
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
     url(${catIcon});
@@ -38,7 +37,6 @@ const HeaderText = styled.h3`
 `;
 
 const MobileHeader = styled.div`
-  ${"" /* height: 4rem; */}
   height: 10%;
   width: 100%;
   background: #001529;
@@ -54,9 +52,6 @@ const MobileHeader = styled.div`
 `;
 
 const MobileFooter = styled.div`
-  ${""}
-  /* height: 3rem;
-   */
   height: 10%;
   width: 100%;
   background: #f0f2f5;
@@ -94,6 +89,9 @@ const NavMenu = ({ tab, setTab, mode, setMobileDrawerOpen }) => (
       <Link to="/boarding-policy">Boarding Policy</Link>
     </Menu.Item>
     <Menu.Item key="3">
+      <Link to="/gallery">Gallery</Link>
+    </Menu.Item>
+    <Menu.Item key="4">
       <Link to="/contact-us">Contact Us</Link>
     </Menu.Item>
   </Menu>

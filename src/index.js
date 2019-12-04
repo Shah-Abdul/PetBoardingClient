@@ -6,6 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 
 import "./index.scss";
 import "antd/dist/antd.css";
+import "react-image-gallery/styles/scss/image-gallery.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

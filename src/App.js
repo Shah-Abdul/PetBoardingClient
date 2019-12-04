@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import MainLayout from "./containers/MainLayout";
 import About from "./components/About";
 import BoardingPolicy from "./components/BoardingPolicy";
 import ContactUs from "./components/ContactUs";
+import Gallery from './components/Gallery';
 import Home from "./components/Home";
+import MainLayout from "./containers/MainLayout";
 
 import "./App.scss";
 
@@ -24,6 +25,9 @@ const App = () => (
         </Route>
         <Route exact path="/contact-us">
           <ContactUs />
+        </Route>
+        <Route exact path="/gallery">
+          <Gallery />
         </Route>
       </Switch>
     </MainLayout>
