@@ -4,7 +4,7 @@ import windowSize from "react-window-size";
 import { Link } from "react-router-dom";
 import { Layout, Menu, Icon, Drawer } from "antd";
 
-import { breakpoints, HEADER_TEXT, FOOTER_TEXT } from "../constants";
+import { breakpoints, FOOTER_TEXT } from "../constants";
 import logo from "../assets/logo.png";
 import catIcon from "../assets/cat.jpg";
 
@@ -137,7 +137,6 @@ const MainLayout = props => {
               />
             )}
             <HomeButton setTab={setTab} />
-            <span>{HEADER_TEXT}</span>
           </MobileHeader>
         ) : (
           <Header
@@ -147,7 +146,6 @@ const MainLayout = props => {
             }}
           >
             <HomeButton setTab={setTab} />
-            <HeaderText>{HEADER_TEXT}</HeaderText>
             <NavMenu tab={tab} setTab={setTab} mode="horizontal" />
           </Header>
         )}
