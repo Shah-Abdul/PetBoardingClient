@@ -47,7 +47,7 @@ export const ABOUT_PAGE_NOTE =
 export const HOME_PAGE_1 = `When you want the best possible care and attention for your pet, \
 there is nothing like a home environment.`;
 
-export const HOME_PAGE_2 = `Sha's Boarding is a home based pet boarding service.`;
+export const HOME_PAGE_2 = `Claws and Paws Boarding is a home based pet boarding service.`;
 
 export const HOME_PAGE_3 = `\nAdditional Services:  We also undertake pet shows in schools, birthday \
 parties, institutions etc.\n
